@@ -43,7 +43,12 @@ const capitaisBrasileiras = [
     "Teresina",
     "Vitória",
     "Natal",
-    "Aracaju"
+    "Aracaju",
+    "Florianópolis",
+    "Macapá",
+    "Porto Velho",
+    "Rio Branco",
+    "Boa Vista",
 ];
 
 // Itera sobre cada capital brasileira e cria um objeto com as informações
