@@ -4,6 +4,7 @@ function pesquisarATemperatura() {
 
     // Obtém o termo de pesquisa, convertendo para minúsculas para facilitar a comparação
     const termoPesquisa = document.getElementById("campo-pesquisa").value.toLowerCase();
+    termoPesquisa.trim();
 
     // Verifica se o termo de pesquisa tem pelo menos 3 caracteres (para evitar pesquisas muito curtas)
     if (termoPesquisa.length < 5) {
@@ -61,3 +62,12 @@ function pesquisarATemperatura() {
     // Atualiza o conteúdo da seção com os resultados
     section.innerHTML = resultadosHTML;
 }
+
+const botaoDePesquisa = document.getElementById("botao-pesquisa");
+
+botaoDePesquisa.addEventListener('click', pesquisarATemperatura);
+botaoDePesquisa.addEventListener('keyup', function(event) {
+    if (event.keyCode === 13) {    
+        pesquisarATemperatura();
+    }
+});
