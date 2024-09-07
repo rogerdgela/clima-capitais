@@ -96,6 +96,7 @@ section button:hover {
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: 11rem;
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
