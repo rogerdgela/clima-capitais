@@ -7,9 +7,9 @@ function pesquisarATemperatura() {
     termoPesquisa.trim();
 
     // Verifica se o termo de pesquisa tem pelo menos 3 caracteres (para evitar pesquisas muito curtas)
-    if (termoPesquisa.length < 5) {
+    if (termoPesquisa.length < 3) {
         // Exibe uma mensagem indicando que o termo de pesquisa é muito curto
-        section.innerHTML = `<p class="warning">Digite pelo menos 5 caracteres para pesquisar.</p>`;
+        section.innerHTML = `<p class="warning">Digite pelo menos 3 caracteres para pesquisar.</p>`;
         return; // Encerra a função, pois não há necessidade de continuar
     }
 
