@@ -11,4 +11,4 @@ Esta aplicação web, desenvolvida em HTML5, CSS3 e JavaScript, permite pesquisa
 ## Como Utilizar
 1. **Clone o repositório:**
    ```bash
-   git clone https://seu-repositorio.git
+   git clone https://github.com/rogerdgela/clima-capitais.git
