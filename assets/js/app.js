@@ -65,9 +65,11 @@ function pesquisarATemperatura() {
 
 const botaoDePesquisa = document.getElementById("botao-pesquisa");
 
-botaoDePesquisa.addEventListener('click', pesquisarATemperatura);
-botaoDePesquisa.addEventListener('keyup', function(event) {
-    if (event.keyCode === 13) {    
-        pesquisarATemperatura();
-    }
-});
+if (botaoDePesquisa) {
+    botaoDePesquisa.addEventListener('click', pesquisarATemperatura);
+    botaoDePesquisa.addEventListener('keyup', function(event) {
+        if (event.keyCode === 13) {    
+            pesquisarATemperatura();
+        }
+    });
+}
